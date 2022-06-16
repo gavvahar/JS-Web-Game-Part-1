@@ -24,4 +24,4 @@ newImage("assets/well.png", 500, 425);
 
 newItem("assets/sword.png", 500, 405);
 newItem("assets/sheild.png", 165, 185);
-newItem("assets/well.png", 500, 425);
+newItem("assets/staff.png", 600, 100);
