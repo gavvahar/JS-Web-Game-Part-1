@@ -8,6 +8,13 @@ function newImage(url, left, bottom) {
   return image;
 }
 
+function newItem(url, left, bottom) {
+  let item = newImage(url, left, bottom);
+  item.addEventListener("click", () => {
+    item.remove();
+  });
+}
+
 newImage("assets/green-character.gif", 100, 100);
 newImage("assets/pine-tree.png", 450, 200);
 newImage("assets/tree.png", 200, 300);
