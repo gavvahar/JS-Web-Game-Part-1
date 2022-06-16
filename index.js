@@ -1,3 +1,11 @@
+function title(url, left, bottom, width, height) {
+  for (let h = 0; h < height; h++) {
+    for (let w = 0; w < width; w++) {
+      newImage(url, left + w * 100, bottom + h * 100);
+    }
+  }
+}
+
 function newImage(url, left, bottom) {
   let image = document.createElement("img");
   image.src = url;
