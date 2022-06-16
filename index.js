@@ -9,3 +9,5 @@ function newImage(url, left, bottom) {
 }
 
 newImage("assets/green-character.gif", 100, 100);
+newImage("assets/pine-tree.png", 450, 200);
+newImage("assets/tree.png", 200, 300);
