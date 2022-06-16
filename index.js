@@ -7,3 +7,5 @@ function newImage(url, left, bottom) {
   document.body.append(image);
   return image;
 }
+
+newImage("assets/green-character.gif", 100, 100);
